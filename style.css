@@ -1,0 +1,197 @@
+/* Hide top header line */
+header {
+    visibility: hidden;
+}
+
+/* Hide "made with streamlit" footer menu area */
+#MainMenu {
+    visibility: hidden;
+}
+footer {
+    visibility: hidden;
+}
+
+/* Centered welcome title */
+.centered-welcome-title {
+    font-family: Courier;
+    color: Orange;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Sidebar width */
+.sidebar .sidebar-content {
+    width: 300px;
+    padding: 10px; /* Ajoute un peu de padding à l'intérieur de la bordure */
+}
+
+/* Chat text styles */
+.user-text {
+    color: blue;
+    text-align: right;
+}
+.ai-text {
+    color: gray;
+    text-align: left;
+}
+
+/* Custom title style for main content */
+.custom-title {
+    font-weight: bold;
+    color: #102C57;
+    font-family: Oswald;
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Control block-container padding */
+.block-container {
+    padding-top: 0.5rem;
+    padding-bottom: 0rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+/* Style pour la ligne de séparation */
+.custom-divider {
+    height: 4px; /* Épaisseur de la ligne */
+    background: linear-gradient(to right, red 50%, blue 50%); /* Gradient de deux couleurs */
+    border: none; /* Aucune bordure autour de la ligne */
+}
+
+.css-1d3911kg {
+    font-weight: bold;
+    color: #6C0345;
+    font-family: Oswald;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px; /* Augmente l'espace sous le sous-titre */
+}
+
+/* Style général pour le titre du sidebar */
+.css-1d391kg {
+    color: black; /* Couleur rouge pour le titre */
+    font-family: Oswald;
+    font-weight: bold 400; /* Texte en gras */
+    font-size: 20px; /* Taille de la police pour le titre */
+    margin-bottom: 20px;
+    margin-top: 32px;
+}
+
+/* Style pour les sous-titres du sidebar */
+.css-hi6a2p {
+    color: blue; /* Couleur bleu pour les sous-titres */
+    font-weight: bold; /* Texte en gras */
+    font-size: 16px; /* Taille de la police pour les sous-titres */
+    margin-bottom: 0px; /* Réduire l'espace en dessous du titre */
+    margin-top: 0px; /* Réduire l'espace en dessous du titre */
+    padding-bottom: 0px; /* Supprimer le padding en dessous du titre */
+    padding-top: 0px; /* Supprimer le padding en dessous du titre */
+}
+
+/* Style pour les onglets */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 2px;
+	
+}
+
+ .stTabs [data-baseweb="tab-list"] button [data-testid="stMarkdownContainer"] p {
+    font-size: 14px;
+	padding-left: 3px; 
+	padding-right: 3px; 
+	font-weight: bold;
+	}
+.stTabs [data-baseweb="tab"] {
+    height: 50px;
+    white-space: pre-wrap;
+    background-color: #d3d0cf;
+    border-radius: 10px 10px 0px 0px;
+    gap: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #000; /* Couleur du texte pour les onglets non sélectionnés */
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #1565C0; /* Couleur de fond des onglets sélectionnés */
+    color: #FFF; /* Couleur du texte pour les onglets sélectionnés */
+}
+
+/* Style pour les éléments du sidebar */
+.sidebar-element {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar-track {
+    background: #e1ebf9;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #90CAF9;
+    border-radius: 10px;
+    border: 3px solid #e1ebf9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #64B5F6;
+}
+
+::-webkit-scrollbar {
+    width: 16px;
+}
+
+/* Style pour les boutons */
+.stButton > button:first-child {
+    background: #1565C0;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+.st-emotion-cache-ue6h4q {
+    font-size: 0px;
+    color: rgb(49, 51, 63);
+    display: flex;
+    visibility: visible;
+    margin-bottom: 0.25rem;
+    height: auto;
+    min-height: 0rem;
+    vertical-align: middle;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+/* Style pour les éléments de la sidebar */
+.sidebar-element {
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Glowing effect for images */
+.cover-glow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.cover-glow:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
